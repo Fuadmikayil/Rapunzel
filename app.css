@@ -4,6 +4,9 @@
     box-sizing: border-box;
     letter-spacing: 1px;
 }
+html{
+    font-size: 10px;
+}
 body{
     background: #000;
 }
@@ -42,6 +45,9 @@ header>h1{
   align-items: center;
   border-radius: 2em;
   gap: 1.6em;
+}
+.card:hover{
+    transform: scale(1.05);
 }
 .card>img{
   width: 100%;
